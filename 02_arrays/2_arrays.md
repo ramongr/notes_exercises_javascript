@@ -65,4 +65,4 @@ Let's take the examples above and access number 4 as it's most deeply nested in 
   fourLevels[1][1][1] -> [4] -> fourLevels[1][1][1][0] -> 4
 ```
 
-If you look closely at each example you'll see I'm always checking for the items _length_ to get the _index_ and each item has a subarray, so they had their own indices.
+I believe that by these examples you can now see that _every_ array has an index, even if it's nested inside another array. This makes it easy to either handle an array or a item _inside_ the array.
